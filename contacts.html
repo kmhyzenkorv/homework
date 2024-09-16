@@ -1,2 +1,11 @@
 <div>contacts</div>
 <a href="/">Main Page</a>
+<div>
+<button id="myButton">Нажми на кнопку </button>
+<p id="message"></p>
+</div>
+<script>
+    document.getElementById('myButton').onclick = function() {
+                document.getElementById('message').innerText = 'получишь результат!';
+            };
+    </script>
